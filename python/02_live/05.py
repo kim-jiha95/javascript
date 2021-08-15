@@ -1,8 +1,9 @@
-N = int(input())
+import sys
+
 pe = {}
 
-for _ in range(N):
-    p, c = input().split()
+for _ in range(int(sys.stdin.readline())):
+    p, c = sys.stdin.readline().rstrip().split()
 
     if c == 'enter':
         pe[p] = 'enter'
