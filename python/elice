@@ -1,0 +1,10 @@
+n = int(input())
+m = int(input())
+top = n * "-"
+bottom = n*"-"
+height = ("|" + " "*(n-2) + "|" + '\n') * (m-2)
+print(top)
+print((height.rstrip('\n')))
+print(bottom)
+
+//4번
