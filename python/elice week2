@@ -1,0 +1,16 @@
+const favoriteIcon = document.getElementsByClassName('favorites_icon');
+
+
+function onAndOff(event){
+    for(let i =0; i < favoriteIcon.length; i++){
+        favoriteIcon[i].classList.remove('on')
+    }
+    event.target.classList.add('on');
+}
+
+
+
+
+for(let i = 0; i<favoriteIcon.length; i++){
+    favoriteIcon[i].addEventListener('click', onAndOff)
+}
