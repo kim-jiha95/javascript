@@ -19,3 +19,11 @@ func instanceof Object
 date instanceof Object
 
 Object.prototype.toString.call(new String(''))
+
+
+```
+동적인 타입 -> 타입검사 어려움 > 잘 찾아서...!
+
+primitive vs reference
+type of / instance of 
+```
