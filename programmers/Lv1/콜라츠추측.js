@@ -1,3 +1,4 @@
+//콜라츠 추측
 function solution(num) {
     var answer = 0;
     while (num != 1 && answer != 500) {
@@ -7,3 +8,4 @@ function solution(num) {
     return num == 1 ? answer : -1;
 
 }
+
