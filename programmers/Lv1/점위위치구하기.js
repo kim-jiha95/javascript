@@ -34,3 +34,10 @@ function JadenCase(s) {
 }
 const test = [3 + "people"]
 console.log(JadenCase(test));
+
+// const a = 'title'
+// const b = ['title1', 'time1']
+
+// let board = Array(3).fill(b).map(row => new Array(3).fill(a))
+// console.log(board);
+
